@@ -1,0 +1,277 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first{
+  background-image: url('F:/Projects/Optics/resources/photos/glasses-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31rem;
+  display: flex;
+  flex-direction: column;
+
+}
+.first1{
+  display: flex;
+  flex-direction: row;
+  background-color: cadetblue;
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  width: 960px;
+  align-self: center;
+  margin-top: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+.first1_1{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+
+}
+.first1_1 img{
+  height: 1.5rem;
+  align-items: center;
+}
+.first1_3{
+  display: flex;
+  flex-direction: row;
+}
+.one, .two{
+  margin-right: 2rem;
+}
+.first1_1_1_2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first2{
+  display: flex;
+  flex-direction: row;
+  width: 1104px;
+  /*border-color:black;
+  border-style: solid;
+  border-width: thin;*/
+  margin-top: 10rem;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.first2_1{
+  width: 35rem;
+  background-color: white;
+}
+
+.first2_2{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 1.5rem 5rem;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  justify-content: center;
+  font-family: helvetica;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+
+}
+.second1, .second2, .second3{
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  text-align: center;
+  justify-content: flex-end;
+
+}
+
+.second1, .second2{
+  margin-right: 6rem;
+}
+.second1 img{
+  width: 3.5rem;
+
+}
+.second2 img, .second3 img{
+  width: 5rem;
+}
+.second1_2, .second2_2, .second3_2{
+  margin-top: 1rem;
+}
+.third{
+  display: flex;
+  flex-direction: row;
+  font-family: helvetica;
+  font-size: 1rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.third1, .third2{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: justify;
+}
+.third1_1, .third2_1{
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+.third1{
+  margin-right: 5%;
+}
+.third1_2 p, .third2_2 p{
+  line-height: 1.5;
+}
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  width: 1032px;
+  align-items: center;
+  font-family: helvetica;
+  font-size: 1rem;
+
+}
+.f1{
+  margin: 4rem 1rem 4rem 4rem;
+}
+.f2{
+  margin: 4rem 0;
+}
+.f1 img{
+  height: 1.5rem;
+}
+.four{
+  display: none;
+}
+@media only screen and (max-width:1024px) {
+  .first1{
+    width: 100%;
+    margin-top: 0;
+
+  }
+  .first{
+    height: 22rem;
+    width: 100%;
+  }
+  .first2{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    width: 100%;
+  }
+  .first2_2{
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+  .foot{
+    margin-bottom: 4rem;
+  }
+  .first1_1{
+    padding-left: 2rem;
+  }
+  .first1_3{
+    padding-right: 2rem;
+  }
+}
+@media only screen and (max-width: 600px){
+  .first1_2{
+    display: none;
+  }
+  .one, .two, .three{
+    display: none;
+  }
+  .four{
+    display: inline;
+  }
+  .first{
+    height: 17rem;
+    background-position:20%;
+  }
+  .first2{
+    margin-top: 9rem;
+    /*width: 100%;*/
+  }
+  .first2_2{
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    /*width: 100%;*/
+  }
+  .first2{
+    margin-top: 9rem;
+    margin-right: 0;
+    justify-content: center;
+  }
+  .first2_2{
+    margin: 0 0;
+  }
+  .first2_1{
+    width: 100%;
+  }
+  .second{
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    align-content: center;
+
+  }
+  .second1_2, .second2_2, .second3_2{
+    font-size: 0.77rem;
+
+
+  }
+  .second1, .second2{
+    margin-bottom: 1.54rem;
+
+  }
+  .second1, .second2, .second3{
+    justify-content: center;
+    width: 100%;
+  }
+  .third{
+    flex-direction: column;
+  }
+  .third1_1, .third2_1{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  .third1_2, .third2_2{
+    font-size: 0.77rem;
+  }
+  .third1{
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+  .third1, .third2{
+    width: 100%;
+  }
+  .f2{
+    display: none;
+  }
+  footer{
+    justify-content: center;
+  }
+  .f1{
+    margin: 4rem 1rem 4rem 0;
+
+  }
+
+}
