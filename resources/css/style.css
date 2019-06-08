@@ -1,8 +1,11 @@
+/*_________________________Main Column___________________________*/
 .main{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+/*_________________________Main Column___________________________*/
+/*_________________________Main Column-1___________________________*/
 .first{
   background-image: url('F:/Projects/Optics/resources/photos/glasses-bg.png');
   background-size: cover;
@@ -10,7 +13,6 @@
   height: 31rem;
   display: flex;
   flex-direction: column;
-
 }
 .first1{
   display: flex;
@@ -30,7 +32,6 @@
   display: flex;
   align-items: center;
   margin-right: 1rem;
-
 }
 .first1_1 img{
   height: 1.5rem;
@@ -48,24 +49,18 @@
   flex-direction: row;
   align-items: center;
 }
-
 .first2{
   display: flex;
   flex-direction: row;
   width: 1104px;
-  /*border-color:black;
-  border-style: solid;
-  border-width: thin;*/
   margin-top: 10rem;
   align-self: center;
   justify-content: flex-end;
 }
-
 .first2_1{
   width: 35rem;
   background-color: white;
 }
-
 .first2_2{
   font-family: helvetica;
   font-size: 2rem;
@@ -73,6 +68,8 @@
   line-height: 1.2;
   margin: 1.5rem 5rem;
 }
+/*_________________________Main Column-1___________________________*/
+/*_________________________Main Column-2___________________________*/
 .second{
   display: flex;
   flex-direction: row;
@@ -81,7 +78,6 @@
   font-family: helvetica;
   font-size: 1rem;
   margin-bottom: 3rem;
-
 }
 .second1, .second2, .second3{
   display: flex;
@@ -89,15 +85,12 @@
   height: 8rem;
   text-align: center;
   justify-content: flex-end;
-
 }
-
 .second1, .second2{
   margin-right: 6rem;
 }
 .second1 img{
   width: 3.5rem;
-
 }
 .second2 img, .second3 img{
   width: 5rem;
@@ -105,6 +98,8 @@
 .second1_2, .second2_2, .second3_2{
   margin-top: 1rem;
 }
+/*_________________________Main Column-2___________________________*/
+/*_________________________Main Column-3___________________________*/
 .third{
   display: flex;
   flex-direction: row;
@@ -133,7 +128,8 @@
 .third1_2 p, .third2_2 p{
   line-height: 1.5;
 }
-
+/*_________________________Main Column-3___________________________*/
+/*_________________________Main Column-Footer______________________*/
 .foot{
   display: flex;
   flex-direction: row;
@@ -147,7 +143,6 @@ footer{
   align-items: center;
   font-family: helvetica;
   font-size: 1rem;
-
 }
 .f1{
   margin: 4rem 1rem 4rem 4rem;
@@ -158,9 +153,13 @@ footer{
 .f1 img{
   height: 1.5rem;
 }
+/*_________________________Main Column-Footer______________________*/
+/*_________________________Visible navigation item______________________*/
 .four{
   display: none;
 }
+/*_________________________Visible navigation item______________________*/
+/*_________________________For screen resolution <=1024px______________________*/
 @media only screen and (max-width:1024px) {
   .first1{
     width: 100%;
@@ -190,6 +189,8 @@ footer{
     padding-right: 2rem;
   }
 }
+/*_________________________For screen resolution <=1024px______________________*/
+/*_________________________For screen resolution <=600px______________________*/
 @media only screen and (max-width: 600px){
   .first1_2{
     display: none;
@@ -206,13 +207,11 @@ footer{
   }
   .first2{
     margin-top: 9rem;
-    /*width: 100%;*/
   }
   .first2_2{
     font-size: 1rem;
     padding: 1rem 0;
     text-align: center;
-    /*width: 100%;*/
   }
   .first2{
     margin-top: 9rem;
@@ -233,9 +232,7 @@ footer{
 
   }
   .second1_2, .second2_2, .second3_2{
-    font-size: 0.77rem;
-
-
+    font-size: 1rem;
   }
   .second1, .second2{
     margin-bottom: 1.54rem;
@@ -254,7 +251,7 @@ footer{
     padding: 0.5rem 0;
   }
   .third1_2, .third2_2{
-    font-size: 0.77rem;
+    font-size: 1rem;
   }
   .third1{
     margin-right: 0;
@@ -271,7 +268,6 @@ footer{
   }
   .f1{
     margin: 4rem 1rem 4rem 0;
-
   }
-
 }
+/*_________________________For screen resolution <=600px______________________*/
